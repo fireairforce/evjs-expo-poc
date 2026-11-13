@@ -1,0 +1,21 @@
+{
+  "name": "evjs-expo-poc",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "^22.13.0 || ^24.3.0 || ^26.0.0" },
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "concurrently -k -n evjs,expo \"npm run dev:web\" \"npm run dev:app\"",
+    "dev:web": "npm run dev --workspace @evjs-expo-poc/web",
+    "dev:app": "npm run dev --workspace @evjs-expo-poc/mobile",
+    "check": "npm run check --workspaces --if-present",
+    "build:web": "npm run build --workspace @evjs-expo-poc/web",
+    "start:web": "npm start --workspace @evjs-expo-poc/web",
+    "build:app": "npm exec --workspace @evjs-expo-poc/mobile -- expo export --platform ios --platform android"
+  },
+  "devDependencies": {
+    "concurrently": "9.2.1",
+    "typescript": "5.9.3"
+  }
+}

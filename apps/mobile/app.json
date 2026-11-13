@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Parcel Tracker PoC",
+    "slug": "parcel-tracker-poc",
+    "scheme": "parcelpoc",
+    "ios": {
+      "bundleIdentifier": "dev.parcelpoc.mobile",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsLocalNetworking": true
+        }
+      }
+    },
+    "android": {
+      "package": "dev.parcelpoc.mobile"
+    },
+    "web": {
+      "output": "static"
+    },
+    "plugins": ["expo-router"]
+  }
+}

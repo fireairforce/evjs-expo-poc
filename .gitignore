@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.ev/
+.expo/
+.turbopack/
+.DS_Store
+*.tsbuildinfo
+route-types.d.ts
+plugin-types.d.ts
+.env
+.env.*
+!.env.example

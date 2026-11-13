@@ -1,0 +1,22 @@
+{
+  "name": "@evjs-expo-poc/web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "ev dev",
+    "build": "ev build",
+    "start": "node dist/server.mjs",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@evjs-expo-poc/shared": "0.0.0",
+    "@evjs/ev": "0.3.29",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@evjs/cli": "0.3.29",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0"
+  }
+}
