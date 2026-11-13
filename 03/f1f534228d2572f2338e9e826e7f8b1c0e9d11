@@ -1,0 +1,70 @@
+NOTES.md
+  s_351544579c1053::t_cf8ca7c3d2ed86 1-7
+apps/mobile/src/app/parcels/[parcelId].tsx
+  s_351544579c1053::t_b472850aeb9782 18-20
+  s_351544579c1053::t_86b950021befa7 1-17,21-117
+packages/shared/src/index.ts
+  s_351544579c1053::t_cf8ca7c3d2ed86 38-51
+  s_351544579c1053::t_2bd6af4f8fc4bc 1-37,52-96
+apps/mobile/tsconfig.json
+  s_351544579c1053::t_e4ffe379d5c788 3-9
+  s_351544579c1053::t_92a1d9463845a5 1-2,10
+.gitignore
+  s_351544579c1053::t_1b9dc1b0494b50 5
+  s_351544579c1053::t_4b45587ec1f49b 1-4,6-12
+README.md
+  s_351544579c1053::t_cf8ca7c3d2ed86 1-9,11-36
+  s_351544579c1053::t_1b9dc1b0494b50 10
+apps/mobile/app.json
+  s_351544579c1053::t_7c0b4258be8706 1-22
+apps/mobile/package.json
+  s_351544579c1053::t_478938d0157a68 1-30
+apps/mobile/src/app/_layout.tsx
+  s_351544579c1053::t_b01f435155711c 1-20
+apps/mobile/src/app/index.tsx
+  s_351544579c1053::t_e3e9c7a1eff49f 1-27
+apps/mobile/src/ui.tsx
+  s_351544579c1053::t_888d0836ec80d8 1-52
+apps/web/ev.config.ts
+  s_351544579c1053::t_e45927facee079 1-8
+apps/web/index.html
+  s_351544579c1053::t_07798a74d8ff46 1-12
+apps/web/package.json
+  s_351544579c1053::t_62ebd223505f00 1-22
+apps/web/src/apis/api/parcels/$parcelId/api.ts
+  s_351544579c1053::t_6c5f77cfc8aaeb 1-21
+apps/web/src/pages/layout.tsx
+  s_351544579c1053::t_81caca1f533e16 1-20
+apps/web/src/pages/page.tsx
+  s_351544579c1053::t_c4124949b0f5a7 1-43
+apps/web/src/pages/parcels/$parcelId/page.tsx
+  s_351544579c1053::t_2533e06286d966 1-89
+apps/web/src/pages/styles.css
+  s_351544579c1053::t_baade98f554d96 1-126
+apps/web/tsconfig.json
+  s_351544579c1053::t_6170e4df7b930b 1-14
+package-lock.json
+  s_351544579c1053::t_aca49a4cd9bea2 1-10169
+package.json
+  s_351544579c1053::t_c6ed56d723aeff 1-21
+packages/shared/package.json
+  s_351544579c1053::t_3ddc6b8d875430 1-8
+packages/shared/tsconfig.json
+  s_351544579c1053::t_1a78958f5bbed2 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "03f1f534228d2572f2338e9e826e7f8b1c0e9d11",
+  "prompts": {},
+  "sessions": {
+    "s_351544579c1053": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1d2cb-44d3-7f51-9bc6-7400c21e3855",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "fireairforce <32598811+fireairforce@users.noreply.github.com>"
+    }
+  }
+}
